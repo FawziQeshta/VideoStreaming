@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getBaseContext(), VideoPlayerActivity.class);
-                intent.putExtra("videoUrl", "https://halaty.net/upload/videos/2020/06/vtT81c7GRRE2FEhfquNw_21_1284ffb9aa4e594174f0a08ffc22b01b_video_240p_converted.mp4");
+                intent.putExtra("videoUrl", "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4");
                 startActivity(intent);
             }
         });
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getBaseContext(), VideoPlayerActivity.class);
-                intent.putExtra("videoUrl", "https://halaty.net/upload/videos/2020/07/ElUOmkHS3DqlQPKYF9ia_03_0d87feab17a09ba056b376d2efaf98c7_video_240p_converted.mp4");
+                intent.putExtra("videoUrl", "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4");
                 startActivity(intent);
             }
         });
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getBaseContext(), VideoPlayerActivity.class);
-                intent.putExtra("videoUrl", "https://halaty.net/upload/videos/2020/08/O37ARBwnjUP4bj9efDaX_23_f9d40a58f9e86a95fd9cd7eb42ee1d5a_video_240p_converted.mp4");
+                intent.putExtra("videoUrl", "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4");
                 startActivity(intent);
             }
         });
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getBaseContext(), VideoPlayerActivity.class);
-                intent.putExtra("videoUrl", "https://halaty.net/upload/videos/2020/08/IsHtZZrDPxMZbMoad5kR_15_a359f8ca7078c9c25f1384b8484291e0_video_240p_converted.mp4");
+                intent.putExtra("videoUrl", "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4");
                 startActivity(intent);
             }
         });
